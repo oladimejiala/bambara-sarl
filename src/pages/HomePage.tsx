@@ -87,7 +87,7 @@ const HomePage = () => {
         />
         <div className="container relative z-10 mx-auto px-4 text-center text-white animate-fade-in-up">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            NOCOMETAB BTP
+            Entreprise BTP BAMBARA Sarl
           </h1>
           <p className="text-xl md:text-3xl mb-4 font-semibold">
             {t('hero.title')}
@@ -105,7 +105,7 @@ const HomePage = () => {
               variant="outline"
               size="lg"
               className="bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm"
-              onClick={() => window.open('https://wa.me/+22995954663', '_blank')}
+              onClick={() => window.open('https://wa.me/+22996129578', '_blank')}
             >
               <Phone className="h-5 w-5 mr-2" />
               {t('hero.cta.chat')}
@@ -255,20 +255,20 @@ const HomePage = () => {
                     <Phone className="h-8 w-8 text-primary mb-2" />
                     <p className="text-sm text-muted-foreground mb-1">Téléphone</p>
                     <a
-                      href="tel:01978890901"
+                      href="tel:+2290196129578"
                       className="font-semibold text-foreground hover:text-primary transition-colors"
                     >
-                      01 97 88 90 01
+                      +229 01 96 12 95 78
                     </a>
                   </div>
                   <div className="flex flex-col items-center">
                     <Mail className="h-8 w-8 text-primary mb-2" />
                     <p className="text-sm text-muted-foreground mb-1">Email</p>
                     <a
-                      href="mailto:contact@ozoneconseil.bj"
+                      href="mailto:contact@bambara-btp.com"
                       className="font-semibold text-foreground hover:text-primary transition-colors"
                     >
-                      contact@ozoneconseil.bj
+                      contact@bambara-btp.com
                     </a>
                   </div>
                   <div className="flex flex-col items-center">
@@ -289,7 +289,7 @@ const HomePage = () => {
                   <Button
                     variant="outline"
                     size="lg"
-                    onClick={() => window.open('https://wa.me/+22997889001', '_blank')}
+                    onClick={() => window.open('https://wa.me/+22996129578', '_blank')}
                   >
                     {t('cta.whatsapp')}
                   </Button>
