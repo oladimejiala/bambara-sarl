@@ -26,10 +26,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="h-12 w-12 rounded-lg bg-gradient-hero flex items-center justify-center text-white font-bold text-sm">
-              NB
+              BB
             </div>
             <div className="hidden md:block">
-              <div className="font-bold text-lg text-foreground">NOCOMETAB BTP</div>
+              <div className="font-bold text-lg text-foreground">BTP BAMBARA</div>
               <div className="text-xs text-muted-foreground">{t('footer.description')}</div>
             </div>
           </Link>
